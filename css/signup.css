@@ -1,0 +1,100 @@
+body{
+    background-color: #795C34;
+    padding: 0;
+}
+.signin p{
+    font-weight:bold ;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerh1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.signupbox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background-color: #9A784F;
+}
+.leftbox{
+    padding-top: 30px;
+    background-color: #65350F;
+    color: black;
+    float: right;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.rightbox{
+    padding: 0px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+input textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    background: transparent;
+}
+::placeholder{
+    background-color: #fff;
+}
+input[type=checkbox]{
+    margin-top: 20px;
+}
+.leftbox label{
+    font-size: 14px;
+}
+.leftbox button{
+    width: 50%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.leftbox button:hover{
+    font-weight: 500;
+    background-color: black;
+    color: #fff;
+}
+.rightbox a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.rightbox button{
+    width: 50%;
+    background: #652A0E;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.rightbox button:hover{
+    font-weight: 500;
+    background-color: #fff;
+    color: #fff;
+}
